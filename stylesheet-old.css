@@ -1,0 +1,109 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: white;
+    font-size: 3em;
+}
+
+img{
+    
+}
+ul{
+    display: flex;
+    flex-direction: row;
+ 
+}
+ul li{
+   padding: 10px 15px;
+  
+  margin-left: 30px;
+  list-style-type: none;
+ color: #ccc;
+
+ 
+}
+ul li:hover{
+  border-radius: 20px;
+    color: #333;
+    background-color:white;
+
+  }
+
+/* Main Continar */
+.main-continar{
+width: 100vw;
+background-color: white;
+/*  max-width: 1500px; */
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 0 auto;
+
+}
+/*END Main Continar */
+
+/* Head Continar */
+.head-continar{
+    width: 100%;
+    max-width:100%;
+   background-image: url("../images/bokeh_car_lights_bg.jpg");
+    object-fit:fill;
+   height: 700px;
+   display: flex;
+flex-direction: column;
+justify-content: flex-start;
+z-index: 1;
+
+}
+
+.cover{
+    width:100%;
+    height: inherit;
+    position: absolute;
+    
+    background-color: rgb(21, 21, 19);
+    opacity: 50%;
+    z-index: -1;
+}
+
+ /* END Head Continar */
+
+ /* First Box */
+ .part1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    vertical-align: middle;
+    align-items: baseline;
+    padding: 30px;
+     }
+
+ .unknow-text{
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+}
+        /* END Header */
+.part1-half{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 120px;
+}
+.first-heading{
+  margin: 10px auto;
+
+}
+.subtitle.white{
+    color: white;
+}
+.subtitle.gray{
+    color: #666;
+}

@@ -1,0 +1,50 @@
+ul{
+    display: flex;
+    flex-flow: row;
+    list-style: none;
+}
+ul li{
+    margin: 10px 30px;
+    background-color: #777;
+    color: black;
+    border-radius: 15px;
+}
+
+ul li:hover{
+position: relative;
+animation-name: anim1;
+animation-timing-function: ease-in;
+animation-iteration-count: 1;
+animation-delay: 200ms;
+animation-duration: 700ms;
+
+
+}
+.up:hover{
+    position: relative;
+    transition:position;
+    transition-delay: 1s;
+    transition-duration: 2s;
+    top: -5px;
+
+}
+@keyframes anim1{
+0%{
+    transform: rotate(0deg);
+}
+20%{
+    transform: rotate(25deg);
+}
+60%{
+    transform: rotate(-25deg);
+}
+70%{
+    transform: rotate(10deg);
+}
+90%{
+    transform: rotate(-10deg);
+}
+100%{
+    transform: rotate(5deg);
+}
+}

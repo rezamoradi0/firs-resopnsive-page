@@ -1,0 +1,111 @@
+.box-subject h2{
+    margin-bottom: 10px;
+}
+.box-subject p{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.flex-box1{
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #eee;
+box-sizing: border-box;
+width: 100%;
+height: 90vh;
+padding: 20px 50px;
+
+}
+.all-items{
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+.item-content{
+    display :flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    padding: 20px;
+    height: 300px;
+    width: 25%;
+}
+.box-subject{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subject-text{
+    text-align: center;
+    line-height: 24px    ;
+}
+.item-content>div{
+    margin: 10px auto;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.circle.blue{
+    background-color: rgb(66, 182, 255);
+}
+.circle.green{
+    background-color: rgb(66, 255, 88);
+}
+.circle.red{
+    background-color: rgb(255, 82, 66);
+}
+/* END First Box */
+
+.flex-box2{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+.all-contacts{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 250px;
+}
+.ontact-info{
+   margin-left: 10px;
+}
+img{
+    border-radius: 50%;
+}
+
+.box-footer p{
+    width: 50%;
+    margin: 70px auto;
+}
+.box-footer a button{
+    display: block;
+    margin: 10px auto;
+   padding:10px 40px;
+   border-radius: 35px;
+   font-size: 18px;
+   border: none;
+   background-color: rgb(66, 182, 255);
+   color: white;
+}
+.margin1{
+    margin: 36px auto;
+}
+hr{
+    color: black;
+    width: 90%;
+}
